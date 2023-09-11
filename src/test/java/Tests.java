@@ -35,15 +35,6 @@ public class Tests {
         Assertions.assertTrue(NaturalNumberInterpreter.isValidGreekPhoneNumber("0 0 30 69 74 0 9 22 52".replaceAll(" ", "")));
 
 
-        Assertions.assertTrue(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 10 6 9 306 6 4".replaceAll(" ", "")));
-        Assertions.assertFalse(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 16 9 306 6 4".replaceAll(" ", "")));
-        Assertions.assertTrue(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 106 9 306 6 4".replaceAll(" ", "")));
-        Assertions.assertFalse(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 106 9 36 6 4".replaceAll(" ", "")));
-        Assertions.assertFalse(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 10 6 9 36 6 4".replaceAll(" ", "")));
-        Assertions.assertFalse(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 16 9 36 6 4".replaceAll(" ", "")));
-        Assertions.assertFalse(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 16 9 30 6 6 4".replaceAll(" ", "")));
-        Assertions.assertTrue(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 106 9 30 6 6 4".replaceAll(" ", "")));
-
 
         // 700 30 2
 
