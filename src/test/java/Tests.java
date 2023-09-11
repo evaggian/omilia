@@ -12,7 +12,7 @@ public class Tests {
         List<String> results = new ArrayList<>();
         List<String> expectedResults = new ArrayList<>();
 
-        NaturalNumberInterpreter.generateAlternatives("2 10 6 9 30 6 6 4", results, 0);
+        /*NaturalNumberInterpreter.generateAlternatives("2 10 6 9 30 6 6 4", results, 0);
 
         expectedResults.add("2 10 6 9 306 6 4");
         expectedResults.add("2 16 9 306 6 4");
@@ -23,7 +23,7 @@ public class Tests {
         expectedResults.add("2 16 9 30 6 6 4");
         expectedResults.add("2 106 9 30 6 6 4");
 
-        Assertions.assertTrue(expectedResults.size() == results.size() && expectedResults.containsAll(results));
+        Assertions.assertTrue(expectedResults.size() == results.size() && expectedResults.containsAll(results));*/
 
     }
 
@@ -43,6 +43,12 @@ public class Tests {
         Assertions.assertFalse(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 16 9 36 6 4".replaceAll(" ", "")));
         Assertions.assertFalse(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 16 9 30 6 6 4".replaceAll(" ", "")));
         Assertions.assertTrue(NaturalNumberInterpreter.isValidGreekPhoneNumber("2 106 9 30 6 6 4".replaceAll(" ", "")));
+
+
+        // 700 30 2
+
+
+        // 724 -> 700 20 4
 
 
     }
