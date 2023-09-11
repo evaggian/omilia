@@ -7,11 +7,10 @@ public class NaturalNumberInterpreter {
     public static void main(String[] args) {
 
         // Prompt the user for input
-        /*System.out.print("Enter a sequence of numbers separated by spaces: ");
+        System.out.print("Enter a sequence of numbers separated by spaces: ");
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();*/
+        String input = scanner.nextLine();
 
-        String input = "2 10 69 30 6 6 4";
 
         List<List<String>> superList = new ArrayList<>();
 
